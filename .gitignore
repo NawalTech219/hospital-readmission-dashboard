@@ -6,7 +6,7 @@ __pycache__/
 data/raw/*
 !data/raw/.gitkeep
 data/processed/*.csv
-!data/processed/sample_*.csv
+!data/processed/diabetic_data_cleaned.csv
 
 .env
 *.log
