@@ -38,7 +38,7 @@ CREATE TABLE encounters (
     encounter_id                BIGINT PRIMARY KEY,
     patient_nbr                  BIGINT NOT NULL,
     race                          VARCHAR(30),
-    gender                        VARCHAR(10),
+    gender                        VARCHAR(20),
     age                          VARCHAR(10),
     admission_type_id            INT,
     discharge_disposition_id     INT,
